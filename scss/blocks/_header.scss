@@ -55,6 +55,7 @@
 
 
     .header__btn {
+        z-index: 9999;
         &__text{
             cursor: pointer;
             background: transparent;
