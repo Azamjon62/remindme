@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import "./normalize";
+@import "./fonts";
+@import "./variables";
+@import "./general";
+@import "./mixins";
+@import "./extends";
+@import "./visually-hidden";
+@import "./blocks/all-boxs";
+
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
