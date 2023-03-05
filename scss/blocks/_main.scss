@@ -293,3 +293,95 @@
 }
 
 
+
+
+
+
+
+//  ----------------------------------------------------------  //
+
+
+
+
+
+
+.section__about
+{
+    margin-top: 150px;
+
+    &__flex {
+        display: flex;
+
+        &__img {
+            width: 700px;
+            background: #EEF4FF;
+            border-radius: 0px 100px 100px 0px;
+
+        }
+
+
+
+        &__wrapper {
+            width: 493px;
+            margin-top: 60px;
+            margin-left: 147px;
+
+            &-title {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 65px;
+                color: #212121;
+            }
+
+
+
+            &__action {
+                width: 265px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 50px;
+
+                .action__flex {
+                    h4 {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 27px;
+                        color: #212121;
+                    }
+
+                    p {
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #747474;
+                        margin-top: 20px;
+                    }
+                }
+
+            }
+
+
+            &-text {
+                margin-top: 50px;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 36px;
+                color: #212121;
+            }
+
+
+            &__arrow {
+                margin-top: 50px;
+                display: flex;
+                gap: 35px;
+            }
+
+        }
+    }
+}
