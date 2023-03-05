@@ -1,0 +1,101 @@
+.section__footer
+{
+    height: 375px;
+    margin-top: 150px;
+
+    &__flex {
+        margin-top: 225px;
+        display: flex;
+        align-items: center;
+        gap: 120px;
+        
+        &__logo {
+            &__a {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .a-text {
+                    letter-spacing: 0.5px;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 49px;
+                    color: #212121;
+
+                    .me {
+                        color: rgba(0, 0, 255, 0.767);
+                    }
+                }
+            }
+        }
+
+        &__list {
+            list-style: none;
+            gap: 120px;
+            display: flex;
+            align-items: center;
+
+            .list__item {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+
+                a {
+                    color: #000000;
+                    transition: 0.5s;
+                    &:hover {
+                        color: #2D76F9;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    &__wrapper {
+        display: flex;
+        margin-top: 50px;
+        &__text {
+            width: 387px;
+            p {
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 36px;
+                color: #747474;
+            }
+        }
+
+
+        .flex__gaps {
+            display: flex;
+            gap: 140px;
+            margin-left: 60px;
+
+            &__list {
+                color: #2D76F9;
+
+                .li {
+                    a {
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 36px;
+                        color: #747474;
+                    }
+                }
+            }
+
+            &__list.action {
+                display: flex;
+                gap: 40px;
+                margin-left: -40px;
+            }
+        }
+    }
+
+
+}

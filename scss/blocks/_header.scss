@@ -15,7 +15,6 @@
 
         &__logo {
             &__a {
-                text-decoration: none;
                 display: flex;
                 .a__text {
                     .me {
@@ -45,7 +44,12 @@
                         font-size: 18px;
                         line-height: 27px;
                         color: #212121;
-                        text-decoration: none;
+                        transition: 0.5s;
+
+                        &:hover {
+                            color: #2D76F9;
+
+                        }
                     }
                 }
             }
