@@ -535,6 +535,60 @@ template {
   width: 700px;
 }
 
+.section__download {
+  margin-top: 150px;
+}
+.section__download__flex {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #2D76F9;
+  border-radius: 50px;
+  background-image: url("/img/img11.svg");
+}
+.section__download__flex__wrapper {
+  text-align: center;
+  width: 750px;
+}
+.section__download__flex__wrapper .text {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  color: #FFFFFF;
+}
+.section__download__flex__btns {
+  margin-top: 95px;
+  display: flex;
+  gap: 50px;
+}
+.section__download__flex__btns .btn-one {
+  border: none;
+  cursor: pointer;
+  background: #FFFFFF;
+  border-radius: 1500px;
+  padding: 24px 58px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2D76F9;
+}
+.section__download__flex__btns .btn-two {
+  cursor: pointer;
+  padding: 24px 77px;
+  background: #2D76F9;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 1500px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
