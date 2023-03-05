@@ -322,11 +322,6 @@ template {
   margin: 0 auto;
 }
 
-.contain {
-  width: 1440px;
-  margin: 0 auto;
-}
-
 .header {
   margin-top: 32px;
   background: transparent;
